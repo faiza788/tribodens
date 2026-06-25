@@ -12,17 +12,15 @@
 
 ## 🖥️ Preview
 
+
 ### Homepage
-<img width="1920" height="7457" alt="Image" src="https://github.com/user-attachments/assets/b337f656-0dfb-43e0-a71f-cb09cb8e13a2" />
+![Homepage](https://github.com/user-attachments/assets/b337f656-0dfb-43e0-a71f-cb09cb8e13a2)
 
 ### Test Solutions
-<img width="1920" height="3262" alt="Image" src="https://github.com/user-attachments/assets/0e95bcc7-48fc-4251-9e64-7b0684cc812d" />
-
+![Test Solutions](https://github.com/user-attachments/assets/0e95bcc7-48fc-4251-9e64-7b0684cc812d)
 
 ### Contact Us
-<img width="1920" height="4236" alt="Image" src="https://github.com/user-attachments/assets/4a76ccee-5f57-43e2-b3f7-5e510c31a8c2" />
-
----
+![Contact Us](https://github.com/user-attachments/assets/4a76ccee-5f57-43e2-b3f7-5e510c31a8c2)
 
 ## 🔥 What Makes This Different
 
