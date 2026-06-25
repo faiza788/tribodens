@@ -1,43 +1,137 @@
-TRIBODENS WEBSITE - Built by Prezlox
-=====================================
+# TriboDENS — Custom WordPress Theme
 
-FILES:
-- index.html          → Homepage
-- software-solutions.html → Software Solutions page
-- test-solutions.html → Test Solutions / Hardware page
-- consultancy.html    → Consultancy page
-- contact.html        → Contact Us page
-- assets/css/style.css → All styles
-- assets/js/main.js   → Navigation + animations
+![WordPress](https://img.shields.io/badge/WordPress-Custom_Theme-21759B?style=flat&logo=wordpress)
+![CSS](https://img.shields.io/badge/CSS-Custom-1572B6?style=flat&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=flat&logo=javascript)
+![PHP](https://img.shields.io/badge/PHP-Templates-777BB4?style=flat&logo=php)
+![Figma](https://img.shields.io/badge/Figma-Design-F24E1E?style=flat&logo=figma)
 
-IMAGES NEEDED (add to assets/images/):
-- hero-bg.jpg          → Hero background (dark blue gear/machinery image)
-- field-activity.jpg   → Field of Activity (camera/lens equipment)
-- hardware-lab.jpg     → Hardware lab photo (blue machine)
-- software-intro.jpg   → Software screenshot
-- phenix-001.jpg       → PHENIX interface screenshot 1
-- phenix-002.jpg       → PHENIX interface screenshot 2  
-- phenix-003.jpg       → PHENIX interface screenshot 3
-- demo-ehl.jpg         → EHL demo screenshot
-- demo-journal.jpg     → Journal bearing demo screenshot
-- demo-hydro.jpg       → Hydrodynamic demo screenshot
-- demo-hypoid.jpg      → Hypoid gear demo screenshot
-- demo-piston.jpg      → Piston ring demo screenshot
-- test-hardware.jpg    → Hardware lab (blue machine with person)
-- facility-1.jpg       → Lab facility photo 1
-- facility-2.jpg       → Lab facility photo 2
-- facility-3.jpg       → Lab facility photo 3
-- consultancy.jpg      → Person at computer screens
-- news-1.jpg           → News image 1
-- news-2.jpg           → News image 2
-- news-3.jpg           → News image 3
+> A fully custom WordPress theme built **without Elementor or any page builder** — pixel-perfect from Figma to live WordPress. Built by **Faiza Khadim** for TriboDENS Ltd, a tribology, dynamics and energy solutions company based at Loughborough University, UK.
 
-HOW TO VIEW:
-1. Open VS Code
-2. Open this folder
-3. Install "Live Server" extension
-4. Right-click index.html → "Open with Live Server"
+---
 
-HOW TO UPLOAD TO WORDPRESS:
-After testing and approval, convert each HTML page to
-a WordPress PHP template file.
+## 🖥️ Preview
+
+### Homepage
+
+
+### Software Solutions
+![Software Solutions](screenshots/software.png)
+
+### Test Solutions
+![Test Solutions](screenshots/test.png)
+
+### Consultancy
+![Consultancy](screenshots/consultancy.png)
+
+### Contact Us
+![Contact Us](screenshots/contact.png)
+
+---
+
+## 🔥 What Makes This Different
+
+- **Zero page builders** — No Elementor, No WPBakery, No Gutenberg blocks
+- **Pixel-perfect** — Converted directly from Figma design to live WordPress
+- **Custom PHP templates** — Every page is a standalone template
+- **Fully responsive** — Desktop, tablet and mobile
+- **Smooth animations** — Scroll-triggered fade-ups, staggered cards
+- **Fast & clean** — No bloat, pure CSS and vanilla JS only
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Tech |
+|---|---|
+| CMS | WordPress (Astra child theme) |
+| Templates | Custom PHP |
+| Styling | Pure CSS (custom properties, grid, flexbox) |
+| Scripting | Vanilla JavaScript |
+| Fonts | Geist (Google Fonts) |
+| Icons | Inline SVG |
+| Design Source | Figma |
+
+---
+
+## 📄 Pages
+
+| Page | Key Sections |
+|---|---|
+| **Home** | Hero, About Us, Field of Activity, TRL Cards, Hardware Solutions, TRL 4-6 Grid, News & Events, CTA Banner, Footer |
+| **Software Solutions** | TriboDENS PHENIX™ intro, timeline layout, simulation demos with play buttons |
+| **Test Solutions** | Hardware rigs with numbered timeline, facilities image collage with list card |
+| **Consultancy** | Full-width heading, capabilities bullet list, right-side image |
+| **Contact Us** | Contact form, Google Maps embed, contact details |
+
+---
+
+## 📁 File Structure
+
+```
+tribodens-theme/
+├── style.css                   ← WordPress theme header
+├── functions.php               ← Enqueue, template registration, Astra overrides
+├── template-home.php           ← Homepage
+├── template-software.php       ← Software Solutions page
+├── template-test.php           ← Test Solutions page
+├── template-consultancy.php    ← Consultancy page
+├── template-contact.php        ← Contact Us page
+├── template-parts/
+│   ├── navbar.php              ← Shared navigation bar
+│   └── footer.php              ← Shared footer + CTA banner
+└── assets/
+    ├── css/
+    │   └── main.css            ← All styles (2000+ lines)
+    ├── js/
+    │   └── main.js             ← Animations, navbar, interactions
+    └── images/                 ← All theme images
+```
+
+---
+
+## ✨ Features
+
+- ✅ Sticky navbar with blur backdrop effect
+- ✅ Mobile hamburger menu with smooth open/close
+- ✅ Scroll-triggered fade-up animations
+- ✅ Staggered card entrance animations
+- ✅ Button ripple click effect
+- ✅ TRL cards with active gradient state
+- ✅ Numbered hardware timeline with connecting line
+- ✅ Facility images with overlapping collage layout
+- ✅ PHENIX software centre-line timeline
+- ✅ Video demo thumbnails with circular play button
+- ✅ Google Maps iframe embed
+- ✅ Contact form with PHP backend
+- ✅ Fully responsive at all breakpoints
+- ✅ CSS custom properties for easy theming
+- ✅ No jQuery — pure vanilla JavaScript
+
+---
+
+
+## 🚀 Installation
+
+1. Download the theme ZIP
+2. Go to **WordPress Admin → Appearance → Themes → Add New → Upload Theme**
+3. Upload `tribodens-theme.zip`
+4. Click **Activate**
+5. Go to **Pages** and assign the correct template to each page
+6. Go to **Settings → Reading** → set Homepage to your static Home page
+
+---
+
+## 🏢 Client
+
+**TriboDENS Ltd**  
+🌐 [tribodens.com](https://tribodens.com)  
+📍 Holywell Building, Loughborough University Science And Enterprise Park, England, LE11 3UZ
+
+---
+
+
+## 📝 License
+
+This project was built for a client and is shared for portfolio purposes only.  
+All design assets and content belong to TriboDENS Ltd.
