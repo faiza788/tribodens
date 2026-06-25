@@ -13,19 +13,14 @@
 ## 🖥️ Preview
 
 ### Homepage
-
-
-### Software Solutions
-![Software Solutions](screenshots/software.png)
+<img width="1920" height="7457" alt="Image" src="https://github.com/user-attachments/assets/b337f656-0dfb-43e0-a71f-cb09cb8e13a2" />
 
 ### Test Solutions
-![Test Solutions](screenshots/test.png)
+<img width="1920" height="3262" alt="Image" src="https://github.com/user-attachments/assets/0e95bcc7-48fc-4251-9e64-7b0684cc812d" />
 
-### Consultancy
-![Consultancy](screenshots/consultancy.png)
 
 ### Contact Us
-![Contact Us](screenshots/contact.png)
+<img width="1920" height="4236" alt="Image" src="https://github.com/user-attachments/assets/4a76ccee-5f57-43e2-b3f7-5e510c31a8c2" />
 
 ---
 
